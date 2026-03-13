@@ -10,6 +10,8 @@ DESC
 
   s.homepage         = 'https://github.com/ankur08/DexCom'
 
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+
   s.author           = { 'Ankur' => 'ankur.nema12@gmail.com' }
 
   s.platform         = :ios, '14.0'
@@ -20,7 +22,5 @@ DESC
   s.exclude_files = 'DexCom/DexComApp.swift', 'DexCom/ContentView.swift'
 
   s.swift_version    = '5.0'
-
-  s.license = { :type => 'MIT', :file => 'LICENSE' }
 
 end
