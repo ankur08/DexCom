@@ -12,12 +12,15 @@ DESC
 
   s.author           = { 'Ankur' => 'ankur.nema12@gmail.com' }
 
-  s.platform         = :ios, '13.0'
+  s.platform         = :ios, '14.0'
 
   s.source           = { :git => 'https://github.com/ankur08/DexCom.git', :tag => s.version }
 
-  s.source_files     = 'DexCom/**/*.swift'
+  s.source_files = 'DexCom/**/*.swift'
+  s.exclude_files = 'DexCom/DexComApp.swift', 'DexCom/ContentView.swift'
 
   s.swift_version    = '5.0'
+
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
 
 end
